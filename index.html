@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Eight Ball App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Magic Eight Ball</h1>
+      <p>Ask a question and get your answer!</p>
+
+      <!-- Ball animations -->
+      <div id="ball" class="ball">
+        <span id="ballNumber" class="ball-number"></span>
+      </div>
+
+      <input type="number" id="userNumber" placeholder="Enter a number (1-8)" / style="text-align: center;">
+      <button id="askButton">Ask the Magic Ball</button>
+      <p id="response"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
